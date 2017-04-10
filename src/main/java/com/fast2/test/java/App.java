@@ -70,7 +70,7 @@ public class App {
 		 * to be able to filter the selection  of names beginnig with choice
 		 */
 		String choice = "L";
-		System.out.print("\nName is sorted on desc order, displaying only odd occurences, with names begining with "
+		System.out.print("\nName is sorted on asc order, displaying only odd occurences, with names begining with "
 				+ choice + "\n");
 		// get a comparator, can be ASC or DESC
 		Comparator<String> customComparator = ListComparator.getAttributeComparator(Order.DESC);
